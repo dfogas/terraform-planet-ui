@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'terraform-planet'`, () => {
+  it(`should have as title 'terraform-planet-ui'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('terraform-planet');
+    expect(app.title).toEqual('terraform-planet-ui-ui');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('terraform-planet app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('terraform-planet-ui-ui app is running!');
   });
 });
