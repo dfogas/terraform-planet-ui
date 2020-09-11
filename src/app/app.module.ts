@@ -6,6 +6,7 @@ import {AppComponent} from './app.component';
 import {GameRoutingModule} from './game/game-routing.module';
 import {GameModule} from './game/game.module';
 import { AngularInfoComponent } from './angular-info/angular-info.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
     declarations: [
@@ -16,7 +17,8 @@ import { AngularInfoComponent } from './angular-info/angular-info.component';
         BrowserModule,
         AppRoutingModule,
         GameRoutingModule,
-        GameModule
+        GameModule,
+        BrowserAnimationsModule
     ],
     providers: [],
     bootstrap: [AppComponent]
