@@ -1,0 +1,54 @@
+.filterDiv {
+    cursor: pointer;
+    float: left;
+    position: relative;
+    backgroud: linear-gradient(to bottom right, #ffffff, #aaaaaa, #eeeeee, #cecece, #dddddd, #eeeeee, #cccccc);
+    width: 240px;
+    height: 310px;
+    margin: 15px;
+    margin-bottom: 10px;
+    font-family: Prototype;
+    font-size: 18px;
+    border: 4px solid rgb(221, 221, 221);
+    border-right-color: rgb(137, 137, 137);
+    border-bottom-color: rgb(137, 137, 137);
+    border-radius: 20px;
+    box-shadow: 0 0 2px 1px black;
+    transition: transform 200ms ease-in-out;
+    will-change: transform
+}
+
+.price {
+    float: left;
+    font-family: Prototype;
+    font-size: 26px;
+    border-top: 2px solid rgb(221,221,221);
+    border-left: 2px solid rgb(221,221,221);
+    border-bottom: 2px solid rgb(137,137,137);
+    border-right: 2px solid rgb(137,137,137);
+    background: rgb(255,228,4);
+    background: linear-gradient(rgb(255,208,4),rgb(255,255,104),rgb(255,208,4),rgb(255,208,4));
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: -76px;
+    margin-left: -7px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.6), 0 0 0 2px rgba(0,0,0,0.3);
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: Prototype;
+    float: left;
+    margin-top: 36px;
+    margin-left: -1px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    text-align: center;
+}

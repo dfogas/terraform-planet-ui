@@ -6,12 +6,14 @@ import {GameRoutingModule} from './game-routing.module';
 import {GameComponent} from './game.component';
 import {HexGridComponent} from './hex-grid/hex-grid.component';
 import {ProjectsBuiltComponent} from './projects-built/projects-built.component';
+import {ProjectCardComponent} from './project-card/project-card.component';
 
 @NgModule({
-    declarations: [GameComponent, HexGridComponent, ProjectsBuiltComponent],
+    declarations: [GameComponent, HexGridComponent, ProjectsBuiltComponent, ProjectCardComponent],
     exports: [
         GameComponent,
-        ProjectsBuiltComponent
+        ProjectsBuiltComponent,
+        ProjectCardComponent
     ],
     imports: [
         CommonModule,
